@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio Projects\\AutoMall_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFEF8FD-3BCD-4E59-A998-B5286DD2BBB2}|..\\DataAccess\\Data Access Layer.csproj|d:\\visual studio projects\\dataaccess\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DBB60E5-6767-4123-BCE6-ECDFA8A536F1}|AutoMall_API.csproj|d:\\visual studio projects\\automall_api\\controllers\\automallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DBB60E5-6767-4123-BCE6-ECDFA8A536F1}|AutoMall_API.csproj|solutionrelative:controllers\\automallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6F113E-E1E8-48E4-B3FB-86C8BAD17517}|..\\Bussines\\Business Layer.csproj|d:\\visual studio projects\\bussines\\business.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\DataAccess\\DataAccess.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\DataAccess.cs",
+              "ToolTip": "D:\\Visual Studio Projects\\DataAccess\\DataAccess.cs",
+              "RelativeToolTip": "..\\DataAccess\\DataAccess.cs",
+              "ViewState": "AgIAAFADAAAAAAAAAAA4wLUDAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T00:04:54.341Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Business.cs",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\Bussines\\Business.cs",
+              "RelativeDocumentMoniker": "..\\Bussines\\Business.cs",
+              "ToolTip": "D:\\Visual Studio Projects\\Bussines\\Business.cs",
+              "RelativeToolTip": "..\\Bussines\\Business.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAlwFQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T00:04:41.292Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutoMallController.cs",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\AutoMall_API\\Controllers\\AutoMallController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AutoMallController.cs",
+              "ToolTip": "D:\\Visual Studio Projects\\AutoMall_API\\Controllers\\AutoMallController.cs",
+              "RelativeToolTip": "Controllers\\AutoMallController.cs",
+              "ViewState": "AgIAACsBAAAAAAAAAAAswEsBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T00:09:00.088Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
