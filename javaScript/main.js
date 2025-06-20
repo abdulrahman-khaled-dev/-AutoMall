@@ -9,7 +9,7 @@ function StartMain() {
     on_ClickSellYourCarNavbar();
     on_ClickSellYourCarFooter();
     MenuToggle();
-    UpdateUI();   
+    UpdateUI();
 }
 
 
@@ -22,16 +22,25 @@ function on_ClickLogout() {
 }
 
 function on_ClickSellYourCarNavbar() {
+    // document.querySelector(".navbar .Sell-Your-Car").addEventListener("click", function () {
+    //     IsLoggedIn() ? window.location.href = "Sell-Your-Car.html" :
+    //         window.location.href = "Login.html";
+    // });
+
     document.querySelector(".navbar .Sell-Your-Car").addEventListener("click", function () {
-        IsLoggedIn() ? window.location.href = "Sell-Your-Car.html" :
-        window.location.href = "Login.html";
+        true ? window.location.href = "Sell-Your-Car.html" :
+            window.location.href = "Login.html";
     });
 }
 
 function on_ClickSellYourCarFooter() {
+    // document.querySelector(".footer-links .Sell-Your-Car").addEventListener("click", function () {
+    //     IsLoggedIn() ? window.location.href = "Sell-Your-Car.html" :
+    //         window.location.href = "Login.html";
+    // });
     document.querySelector(".footer-links .Sell-Your-Car").addEventListener("click", function () {
-        IsLoggedIn() ? window.location.href = "Sell-Your-Car.html" :
-        window.location.href = "Login.html";
+        true ? window.location.href = "Sell-Your-Car.html" :
+            window.location.href = "Login.html";
     });
 }
 
@@ -85,7 +94,8 @@ function LoggedInUI() {
 
     document.querySelector('.user-actions-signed-In').style.display = 'block';
 
-    document.querySelector('.user-actions-signed-In span.username').innerHTML = GetUserName();
+    // document.querySelector('.user-actions-signed-In span.username').innerHTML = GetUserName();
+    document.querySelector('.user-actions-signed-In span.username').innerHTML = 'Abdo Khaled';
 }
 
 
@@ -93,7 +103,10 @@ function LoggedInUI() {
 
 
 function UpdateUI() {
-    if (IsLoggedIn()) {
+    // if (IsLoggedIn()) {
+    //     LoggedInUI();
+    // }
+    if (true) {
         LoggedInUI();
     }
 }

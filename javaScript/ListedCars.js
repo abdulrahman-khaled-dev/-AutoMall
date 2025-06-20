@@ -2,7 +2,7 @@
 ListedCarsStart();
 
 async function ListedCarsStart() {
-    AddCarsToGrid(await GetListedCars());
+    // AddCarsToGrid(await GetListedCars());
     setupDeleteButtons();
     setupEditButtons();
 }

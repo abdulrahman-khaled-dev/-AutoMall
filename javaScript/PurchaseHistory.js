@@ -13,24 +13,24 @@ async function PurchaseHistoryStart() {
     AddItemsToPurchaseGrid(items);
 }
 
-function AddItemsToPurchaseGrid(items) {
-    let PurchaseGrid = document.querySelector(".purchase-grid");
+// function AddItemsToPurchaseGrid(items) {
+//     let PurchaseGrid = document.querySelector(".purchase-grid");
 
-    PurchaseGrid.innerHTML = '';
+//     PurchaseGrid.innerHTML = '';
 
-    if (items === false) {
-        document.querySelector(".no-purchases").style.display = 'block';
-    } else {
-        items.forEach(item => {
-            let purchaseItem = CreatePurchaseItem(item);
-            PurchaseGrid.appendChild(purchaseItem);
-        });
+//     if (items === false) {
+//         document.querySelector(".no-purchases").style.display = 'block';
+//     } else {
+//         items.forEach(item => {
+//             let purchaseItem = CreatePurchaseItem(item);
+//             PurchaseGrid.appendChild(purchaseItem);
+//         });
 
-        setupViewDetailsButtons();
-    }
+//         setupViewDetailsButtons();
+//     }
 
 
-}
+// }
 
 function CreatePurchaseItem(item) {
     const purchaseItem = document.createElement("div");

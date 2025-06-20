@@ -729,33 +729,6 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
-      },
-      "Business Layer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Data Access Layer": "1.0.0",
-          "Microsoft.Data.SqlClient": "6.0.2"
-        },
-        "compile": {
-          "bin/placeholder/Business Layer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Business Layer.dll": {}
-        }
-      },
-      "Data Access Layer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.Data.SqlClient": "6.0.2"
-        },
-        "compile": {
-          "bin/placeholder/Data Access Layer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Data Access Layer.dll": {}
-        }
       }
     }
   },
@@ -2120,21 +2093,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Business Layer/1.0.0": {
-      "type": "project",
-      "path": "../Bussines/Business Layer.csproj",
-      "msbuildProject": "../Bussines/Business Layer.csproj"
-    },
-    "Data Access Layer/1.0.0": {
-      "type": "project",
-      "path": "../DataAccess/Data Access Layer.csproj",
-      "msbuildProject": "../DataAccess/Data Access Layer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Business Layer >= 1.0.0",
+      "D:\\Desktop\\Projects\\Car Shop - Copy\\Bussines\\Business Layer.csproj",
       "Microsoft.Data.SqlClient >= 6.0.2",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -2146,11 +2109,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio Projects\\AutoMall_API\\AutoMall_API.csproj",
+      "projectUniqueName": "D:\\Desktop\\Projects\\Car Shop - Copy\\AutoMall_API\\AutoMall_API.csproj",
       "projectName": "AutoMall_API",
-      "projectPath": "D:\\Visual Studio Projects\\AutoMall_API\\AutoMall_API.csproj",
+      "projectPath": "D:\\Desktop\\Projects\\Car Shop - Copy\\AutoMall_API\\AutoMall_API.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio Projects\\AutoMall_API\\obj\\",
+      "outputPath": "D:\\Desktop\\Projects\\Car Shop - Copy\\AutoMall_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2171,8 +2134,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Visual Studio Projects\\Bussines\\Business Layer.csproj": {
-              "projectPath": "D:\\Visual Studio Projects\\Bussines\\Business Layer.csproj"
+            "D:\\Desktop\\Projects\\Car Shop - Copy\\Bussines\\Business Layer.csproj": {
+              "projectPath": "D:\\Desktop\\Projects\\Car Shop - Copy\\Bussines\\Business Layer.csproj"
             }
           }
         }
@@ -2224,5 +2187,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Desktop\\Projects\\Car Shop - Copy\\Bussines\\Business Layer.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Desktop\\Projects\\Car Shop - Copy\\Bussines\\Business Layer.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

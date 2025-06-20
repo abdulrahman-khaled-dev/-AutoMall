@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoMall_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4ca0b9c1c3bd6f96ded074cec0f87d0a5b64062")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoMall_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoMall_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

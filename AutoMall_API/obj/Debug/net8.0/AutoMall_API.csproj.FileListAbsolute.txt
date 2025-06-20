@@ -83,3 +83,6 @@ D:\Visual Studio Projects\AutoMall_API\obj\Debug\net8.0\refint\AutoMall_API.dll
 D:\Visual Studio Projects\AutoMall_API\obj\Debug\net8.0\AutoMall_API.pdb
 D:\Visual Studio Projects\AutoMall_API\obj\Debug\net8.0\AutoMall_API.genruntimeconfig.cache
 D:\Visual Studio Projects\AutoMall_API\obj\Debug\net8.0\ref\AutoMall_API.dll
+D:\Desktop\Projects\Car Shop - Copy\AutoMall_API\obj\Debug\net8.0\AutoMall_API.dll
+D:\Desktop\Projects\Car Shop - Copy\AutoMall_API\obj\Debug\net8.0\refint\AutoMall_API.dll
+D:\Desktop\Projects\Car Shop - Copy\AutoMall_API\obj\Debug\net8.0\AutoMall_API.pdb

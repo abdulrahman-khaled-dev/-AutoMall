@@ -208,29 +208,29 @@ async function GetCarsListFromApi() {
 
 
 
-async function AddCarsToGrid(Grid, CarsData) {
-    let Cars = await CarsData;
+// async function AddCarsToGrid(Grid, CarsData) {
+//     let Cars = await CarsData;
 
-    ClearElement(Grid);
+//     ClearElement(Grid);
 
-    if (!Cars || Cars.length === 0) {
-        NoCarsFoundMessage(Grid);
-        return; 
-    }
+//     if (!Cars || Cars.length === 0) {
+//         NoCarsFoundMessage(Grid);
+//         return; 
+//     }
 
     
 
-    let fragment = document.createDocumentFragment();
+//     let fragment = document.createDocumentFragment();
 
-    Cars.forEach(car => {
-        fragment.appendChild(CreateCarCard(car));
-    });
+//     Cars.forEach(car => {
+//         fragment.appendChild(CreateCarCard(car));
+//     });
 
-    Grid.appendChild(fragment);
-    handelUserCarsBtn();
-    onClick_BuyNowBtn();
+//     Grid.appendChild(fragment);
+//     handelUserCarsBtn();
+//     onClick_BuyNowBtn();
 
-}
+// }
 
 
 
