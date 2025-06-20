@@ -199,7 +199,7 @@ header .container {
 .sell-hero,
 .about-hero {
     background:
-        url("file:///D:/Desktop/Projects/Car%20Shop%20-%20Copy/imges/bro-takes-photos-fKNPmWPtESI-unsplash.webp");
+        url("file:///D:/Desktop/Projects/Car%20Shop%20-%20Copy/imges/bro-takes-photos-fKNPmWPtESI-unsplash.webp"),url("../imges/bro-takes-photos-fKNPmWPtESI-unsplash.webp");
     background-size: cover;
     background-position: center;
     color: white;
