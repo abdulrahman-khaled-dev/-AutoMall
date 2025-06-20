@@ -30,13 +30,16 @@
 - Category-based navigation
 - Mobile-friendly menu
 
-## 📱 Screenshots
-*Include 2-3 screenshots from your project here*
+## 🔌 Backend Integration Needed
+To make this a fully functional application, you'll need to:
+
+1. **Set up API endpoints** :
+   - All APIs work but need to be online rather than local host
+   - then change URLs in js files
+
 
 ## 🌐 Demo Access
 Explore all features live:  
 [https://abdulrahman-khaled-dev.github.io/-AutoMall/](https://abdulrahman-khaled-dev.github.io/-AutoMall/)
 
-*Test Credentials (if applicable):*  
-Email: demo@automall.com  
-Password: demo123
+
