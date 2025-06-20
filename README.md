@@ -1,6 +1,7 @@
 # AutoMall - Premium Car Dealership System
 
 **Live Demo:** [https://abdulrahman-khaled-dev.github.io/-AutoMall/](https://abdulrahman-khaled-dev.github.io/-AutoMall/)
+*(Note: This is a UI demonstration. Backend API integration required for full functionality)*
 
 ## 🚀 Key Features
 
@@ -36,3 +37,6 @@
 Explore all features live:  
 [https://abdulrahman-khaled-dev.github.io/-AutoMall/](https://abdulrahman-khaled-dev.github.io/-AutoMall/)
 
+*Test Credentials (if applicable):*  
+Email: demo@automall.com  
+Password: demo123
